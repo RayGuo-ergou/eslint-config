@@ -1,5 +1,5 @@
 {
-  "name": "@ray/eslint-config",
+  "name": "@ergou_rrrr/eslint-config",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@8.8.0",
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.8",
-    "@ray/eslint-config": "workspace:*",
+    "@ergou_rrrr/eslint-config": "workspace:*",
     "@stylistic/eslint-plugin-migrate": "^0.0.8",
     "@types/eslint": "^8.44.3",
     "@types/fs-extra": "^11.0.2",

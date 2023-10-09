@@ -15,7 +15,7 @@ importers:
       '@antfu/ni':
         specifier: ^0.21.8
         version: 0.21.8
-      '@ray/eslint-config':
+      '@ergou_rrrr/eslint-config':
         specifier: workspace:*
         version: 'link:'
       '@stylistic/eslint-plugin-migrate':
