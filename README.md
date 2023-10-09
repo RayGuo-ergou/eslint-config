@@ -1,4 +1,4 @@
-# @ray/eslint-config
+# @ergou_rrrr/eslint-config
 [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
 > [!IMPORTANT]
@@ -9,7 +9,7 @@
 ### Install
 
 ```bash
-pnpm i -D eslint @ray/eslint-config
+pnpm i -D eslint @ergou_rrrr/eslint-config
 ```
 
 ### Create config file
@@ -18,7 +18,7 @@ With [`"type": "module"`](https://nodejs.org/api/packages.html#type) in `package
 
 ```js
 // eslint.config.js
-import ray from '@ray/eslint-config'
+import ray from '@ergou_rrrr/eslint-config'
 
 export default ray
 ```
@@ -27,7 +27,7 @@ With CJS:
 
 ```js
 // eslint.config.js
-const ray = require('@ray/eslint-config').default
+const ray = require('@ergou_rrrr/eslint-config').default
 
 module.exports = ray
 ```
