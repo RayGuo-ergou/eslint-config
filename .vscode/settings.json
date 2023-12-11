@@ -11,6 +11,7 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "never"
   },
+  "eslint.debug": true,
 
   // Silent the stylistic rules in you IDE, but still auto fix them
   "eslint.rules.customizations": [
