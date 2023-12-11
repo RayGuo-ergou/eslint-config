@@ -8,13 +8,8 @@ export { antfu as ray }
 export const defaultConfig: Parameters<typeof antfu>[0] = {
   ignores: ['./fixtures', 'components.d.ts', 'nuxt.d.ts', 'dist', '.nuxt', 'node_modules', '.output'],
   unocss: true,
-  overrides: {
-    javascript: {
-      curly: ['error', 'all'],
-    },
-    typescript: {
-      curly: ['error', 'all'],
-    },
+  rules: {
+    curly: ['error', 'all'],
   },
 }
 

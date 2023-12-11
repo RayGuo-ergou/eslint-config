@@ -1,4 +1,4 @@
 // @ts-check
-import ray from './dist/index.js'
+import ray from '@ergou_rrrr/eslint-config'
 
 export default ray
