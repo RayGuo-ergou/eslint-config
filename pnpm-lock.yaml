@@ -117,15 +117,15 @@ importers:
         specifier: ^17.7.2
         version: 17.7.2
     devDependencies:
-      '@antfu/eslint-config':
-        specifier: workspace:*
-        version: 'link:'
       '@antfu/eslint-plugin-prettier':
         specifier: ^5.0.1-1
         version: 5.0.1-1(@types/eslint@8.56.0)(eslint-ts-patch@8.56.0-0)(prettier@3.1.0)
       '@antfu/ni':
         specifier: ^0.21.12
         version: 0.21.12
+      '@ergou_rrrr/eslint-config':
+        specifier: workspace:*
+        version: 'link:'
       '@stylistic/eslint-plugin-migrate':
         specifier: ^1.5.1
         version: 1.5.1(eslint-ts-patch@8.56.0-0)(typescript@5.3.3)
