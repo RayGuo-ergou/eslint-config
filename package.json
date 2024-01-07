@@ -1,13 +1,13 @@
 {
-  "name": "@antfu/eslint-config",
+  "name": "@ergou_rrrr/eslint-config",
   "type": "module",
-  "version": "2.6.1",
+  "version": "0.0.0",
   "packageManager": "pnpm@8.13.1",
-  "description": "Anthony's ESLint config",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "description": "Ray's ESLint config",
+  "author": "Ray Guo <rayguo.rf@gmail.com> (https://github.com/RayGuo-ergou)",
   "license": "MIT",
   "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/RayGuo-ergou/eslint-config",
   "keywords": [
     "eslint-config"
   ],
