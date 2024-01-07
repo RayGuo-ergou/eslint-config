@@ -57,7 +57,7 @@ export async function typescript(
   return [
     {
       // Install the plugins without globs, so they can be configured separately.
-      name: 'antfu:typescript:setup',
+      name: 'ray:typescript:setup',
       plugins: {
         antfu: pluginAntfu,
         ts: pluginTs as any,
@@ -79,7 +79,7 @@ export async function typescript(
           ...parserOptions as any,
         },
       },
-      name: 'antfu:typescript:rules',
+      name: 'ray:typescript:rules',
       rules: {
         ...renameRules(
           pluginTs.configs['eslint-recommended'].overrides![0].rules!,
@@ -121,7 +121,7 @@ export async function typescript(
     },
     {
       files: filesTypeAware,
-      name: 'antfu:typescript:rules-type-aware',
+      name: 'ray:typescript:rules-type-aware',
       rules: {
         ...tsconfigPath ? typeAwareRules : {},
         ...overrides,
@@ -129,7 +129,7 @@ export async function typescript(
     },
     {
       files: ['**/*.d.ts'],
-      name: 'antfu:typescript:dts-overrides',
+      name: 'ray:typescript:dts-overrides',
       rules: {
         'eslint-comments/no-unlimited-disable': 'off',
         'import/no-duplicates': 'off',
@@ -139,14 +139,14 @@ export async function typescript(
     },
     {
       files: ['**/*.{test,spec}.ts?(x)'],
-      name: 'antfu:typescript:tests-overrides',
+      name: 'ray:typescript:tests-overrides',
       rules: {
         'no-unused-expressions': 'off',
       },
     },
     {
       files: ['**/*.js', '**/*.cjs'],
-      name: 'antfu:typescript:javascript-overrides',
+      name: 'ray:typescript:javascript-overrides',
       rules: {
         'ts/no-require-imports': 'off',
         'ts/no-var-requires': 'off',

@@ -35,7 +35,7 @@ export async function javascript(
       linterOptions: {
         reportUnusedDisableDirectives: true,
       },
-      name: 'antfu:javascript',
+      name: 'ray:javascript',
       plugins: {
         'antfu': pluginAntfu,
         'unused-imports': pluginUnusedImports,
@@ -217,7 +217,7 @@ export async function javascript(
     },
     {
       files: [`scripts/${GLOB_SRC}`, `cli.${GLOB_SRC_EXT}`],
-      name: 'antfu:scripts-overrides',
+      name: 'ray:scripts-overrides',
       rules: {
         'no-console': 'off',
       },

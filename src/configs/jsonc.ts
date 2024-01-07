@@ -25,7 +25,7 @@ export async function jsonc(
 
   return [
     {
-      name: 'antfu:jsonc:setup',
+      name: 'ray:jsonc:setup',
       plugins: {
         jsonc: pluginJsonc as any,
       },
@@ -35,7 +35,7 @@ export async function jsonc(
       languageOptions: {
         parser: parserJsonc,
       },
-      name: 'antfu:jsonc:rules',
+      name: 'ray:jsonc:rules',
       rules: {
         'jsonc/no-bigint-literals': 'error',
         'jsonc/no-binary-expression': 'error',
