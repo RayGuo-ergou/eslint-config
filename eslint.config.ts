@@ -1,8 +1,8 @@
 // @ts-expect-error missing types
 import styleMigrate from '@stylistic/eslint-plugin-migrate'
-import antfu from './src'
+import ray from './src'
 
-export default antfu(
+export default ray(
   {
     vue: true,
     // react: true,
@@ -26,6 +26,11 @@ export default antfu(
     },
     rules: {
       'style-migrate/migrate': ['error', { namespaceTo: 'style' }],
+    },
+  },
+  {
+    rules: {
+      curly: ['error', 'multi-or-nest', 'consistent'],
     },
   },
 )
