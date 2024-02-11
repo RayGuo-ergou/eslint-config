@@ -72,7 +72,7 @@ export async function typescript(
           ...parserOptions as any,
         },
       },
-      name: `antfu:typescript:${typeAware ? 'type-aware-parser' : 'parser'}`,
+      name: `ray:typescript:${typeAware ? 'type-aware-parser' : 'parser'}`,
     }
   }
 
@@ -94,7 +94,7 @@ export async function typescript(
       : [makeParser(false, files)],
     {
       files,
-      name: 'antfu:typescript:rules',
+      name: 'ray:typescript:rules',
       rules: {
         ...renameRules(
           pluginTs.configs['eslint-recommended'].overrides![0].rules!,

@@ -127,10 +127,10 @@ importers:
         specifier: workspace:*
         version: 'link:'
       '@stylistic/eslint-plugin-migrate':
-        specifier: ^1.5.4
+        specifier: ^1.5.3
         version: 1.5.4(eslint-ts-patch@8.56.0-0)(typescript@5.3.3)
       '@types/eslint':
-        specifier: ^8.56.2
+        specifier: ^8.56.1
         version: 8.56.2
       '@types/fs-extra':
         specifier: ^11.0.4
