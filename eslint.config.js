@@ -1,4 +1,9 @@
-// @ts-check
-import ray from '@ergou_rrrr/eslint-config'
+import JITI from 'jiti'
+
+const jiti = JITI(import.meta.url)
+/**
+ * @type {import('./src').default}
+ */
+const ray = jiti('./src').default
 
 export default ray

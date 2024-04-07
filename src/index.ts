@@ -1,15 +1,23 @@
-// eslint.config.js
-import antfu from '@antfu/eslint-config'
+import { antfu } from '@antfu/eslint-config'
+import type { OptionsConfig, TypedFlatConfigItem } from '@antfu/eslint-config'
 
 // Export the config function in case I have to customize it
 export { antfu as ray }
 
 // Default config
-export const defaultConfig: Parameters<typeof antfu>[0] = {
+export const defaultConfig: OptionsConfig & TypedFlatConfigItem = {
+  name: 'ray/setup',
   ignores: ['./fixtures', 'components.d.ts', 'nuxt.d.ts', 'dist', '.nuxt', 'node_modules', '.output'],
   unocss: true,
   rules: {
     curly: ['error', 'all'],
+  },
+  vue: {
+    overrides: {
+      'vue/block-order': ['error', {
+        order: ['template', 'script', 'style'],
+      }],
+    },
   },
 }
 
