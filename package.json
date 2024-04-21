@@ -1,7 +1,7 @@
 {
   "name": "@ergou_rrrr/eslint-config",
   "type": "module",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Ray's ESLint config",
   "author": {
     "name": "Ray",
