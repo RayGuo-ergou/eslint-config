@@ -8,7 +8,6 @@ export { antfu as ray }
 export const defaultConfig: OptionsConfig & TypedFlatConfigItem = {
   name: 'ray/setup',
   ignores: ['./fixtures', 'components.d.ts', 'nuxt.d.ts', 'dist', '.nuxt', 'node_modules', '.output'],
-  unocss: true,
   rules: {
     curly: ['error', 'all'],
   },

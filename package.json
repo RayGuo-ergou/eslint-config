@@ -48,7 +48,7 @@
     "@eslint/config-inspector": "^0.4.6",
     "@types/node": "^20.12.7",
     "bumpp": "^9.4.0",
-    "eslint": "^9.0.0",
+    "eslint": "^9.1.0",
     "jiti": "^1.21.0",
     "lint-staged": "^15.2.2",
     "simple-git-hooks": "^2.11.1",
