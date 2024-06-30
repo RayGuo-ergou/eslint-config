@@ -30,6 +30,9 @@ importers:
       eslint:
         specifier: ^9.6.0
         version: 9.6.0
+      eslint-flat-config-utils:
+        specifier: ^0.2.5
+        version: 0.2.5
       jiti:
         specifier: ^1.21.6
         version: 1.21.6
