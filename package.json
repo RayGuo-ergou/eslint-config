@@ -2,7 +2,7 @@
   "name": "@ergou_rrrr/eslint-config",
   "type": "module",
   "version": "1.0.16",
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.9.0",
   "description": "Ray's ESLint config",
   "author": {
     "name": "Ray",
@@ -40,21 +40,21 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "2.22.3"
+    "@antfu/eslint-config": "3.2.0"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.22.0",
+    "@antfu/ni": "^0.23.0",
     "@ergou_rrrr/eslint-config": "workspace:*",
-    "@eslint/config-inspector": "^0.5.1",
-    "@types/node": "^20.14.10",
-    "bumpp": "^9.4.1",
-    "eslint": "^9.7.0",
-    "eslint-flat-config-utils": "^0.2.5",
+    "@eslint/config-inspector": "^0.5.4",
+    "@types/node": "^22.5.4",
+    "bumpp": "^9.5.2",
+    "eslint": "^9.9.1",
+    "eslint-flat-config-utils": "^0.3.1",
     "jiti": "^1.21.6",
-    "lint-staged": "^15.2.7",
+    "lint-staged": "^15.2.10",
     "simple-git-hooks": "^2.11.1",
-    "tsup": "^8.1.0",
-    "typescript": "^5.5.3"
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
