@@ -21,4 +21,4 @@ export const defaultConfig: OptionsConfig & TypedFlatConfigItem = {
 }
 
 // Default export is the config should use in most of my projects
-export default antfu(defaultConfig)
+export default antfu(defaultConfig) as ReturnType<typeof antfu>
