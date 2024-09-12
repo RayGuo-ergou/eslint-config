@@ -1,7 +1,7 @@
 {
   "name": "@ergou_rrrr/eslint-config",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "packageManager": "pnpm@9.10.0",
   "description": "Ray's ESLint config",
   "author": {
