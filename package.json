@@ -2,7 +2,7 @@
   "name": "@ergou_rrrr/eslint-config",
   "type": "module",
   "version": "1.0.17",
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.10.0",
   "description": "Ray's ESLint config",
   "author": {
     "name": "Ray",
@@ -40,7 +40,7 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "3.2.0"
+    "@antfu/eslint-config": "3.5.1"
   },
   "devDependencies": {
     "@antfu/ni": "^0.23.0",
@@ -48,13 +48,13 @@
     "@eslint/config-inspector": "^0.5.4",
     "@types/node": "^22.5.4",
     "bumpp": "^9.5.2",
-    "eslint": "^9.9.1",
-    "eslint-flat-config-utils": "^0.3.1",
+    "eslint": "^9.10.0",
+    "eslint-flat-config-utils": "^0.4.0",
     "jiti": "^1.21.6",
     "lint-staged": "^15.2.10",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
