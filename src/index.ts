@@ -11,14 +11,10 @@ export const defaultConfig: OptionsConfig & TypedFlatConfigItem = {
   rules: {
     curly: ['error', 'all'],
   },
-  vue: {
-    overrides: {
-      'vue/block-order': ['error', {
-        order: ['template', 'script', 'style'],
-      }],
-    },
-  },
 }
 
+function getDefaultConfig(): ReturnType<typeof antfu> {
+  return antfu(defaultConfig)
+}
 // Default export is the config should use in most of my projects
-export default antfu(defaultConfig) as ReturnType<typeof antfu>
+export default getDefaultConfig
