@@ -1,5 +1,5 @@
-import { antfu } from '@antfu/eslint-config'
 import type { OptionsConfig, TypedFlatConfigItem } from '@antfu/eslint-config'
+import { antfu } from '@antfu/eslint-config'
 
 // Export the config function in case I have to customize it
 export { antfu as ray }
